@@ -1,6 +1,6 @@
 <template>
   <article class="container">
-    <img src="../assets/1_03.jpg" alt="img" class="article__img" />
+    <img src="img/1_03.jpg" alt="img" class="article__img" />
     <div class="article__content">
       <div class="article__c">
         <a href="#">photodiary</a>

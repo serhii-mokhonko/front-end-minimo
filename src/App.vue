@@ -2,17 +2,23 @@
   <div id="app">
     <app-header></app-header>
     <first-post></first-post>
+    <content-post></content-post>
+    <search-block></search-block>
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
 import FirstPost from './components/Firstpost'
+import ContentPost from './components/ContentPost'
+import SearchBlock from './components/SearchBlock'
 export default {
   name: 'app',
   components: {
     appHeader: Header,
-    firstPost: FirstPost
+    firstPost: FirstPost,
+    contentPost: ContentPost,
+    searchBlock: SearchBlock
   }
 }
 </script>
