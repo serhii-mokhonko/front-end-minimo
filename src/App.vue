@@ -4,6 +4,8 @@
     <first-post></first-post>
     <content-post></content-post>
     <search-block></search-block>
+    <content-post></content-post>
+    <app-footer></app-footer>
   </div>
 </template>
 
@@ -12,13 +14,15 @@ import Header from './components/Header'
 import FirstPost from './components/Firstpost'
 import ContentPost from './components/ContentPost'
 import SearchBlock from './components/SearchBlock'
+import Footer from './components/Footer'
 export default {
   name: 'app',
   components: {
     appHeader: Header,
     firstPost: FirstPost,
     contentPost: ContentPost,
-    searchBlock: SearchBlock
+    searchBlock: SearchBlock,
+    appFooter: Footer
   }
 }
 </script>

@@ -58,10 +58,10 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 85px;
 }
 .article {
   width: 422px;
-  margin-bottom: 125px;
 }
 
 .article h2 {

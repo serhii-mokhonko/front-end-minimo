@@ -43,10 +43,10 @@ nav {
 .link {
   text-decoration: none;
   color: #626262;
-  transition: color, 0.5s linear;
+  transition: color, 0.3s linear;
 }
 
 .link:hover {
-  color: black;
+  color: #333;
 }
 </style>

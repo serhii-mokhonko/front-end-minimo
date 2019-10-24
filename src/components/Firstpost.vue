@@ -29,7 +29,7 @@ export default {};
 .article__content {
   width: 100%;
   max-width: 890px;
-  margin: 50px auto 125px;
+  margin: 50px auto 0px;;
 }
 .article__content a {
   text-decoration: none;
