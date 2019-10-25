@@ -43,7 +43,7 @@ a:hover {
   font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 .article__title {
   font-family: "Playfair Display", serif;

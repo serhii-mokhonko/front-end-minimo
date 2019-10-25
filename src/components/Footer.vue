@@ -7,9 +7,15 @@
       </div>
       <div class="foot__social">
         <span>Folow</span>
-        <a href="#"><vue-fontawesome icon="facebook" size="1.2" color="black"></vue-fontawesome></a>
-        <a href="#"><vue-fontawesome icon="twitter" size="1.2" color="black"></vue-fontawesome></a>
-        <a href="#"><vue-fontawesome icon="instagram" size="1.2" color="black"></vue-fontawesome></a>
+        <a href="#">
+          <vue-fontawesome icon="facebook" size="1.2" color="black"></vue-fontawesome>
+        </a>
+        <a href="#">
+          <vue-fontawesome icon="twitter" size="1.2" color="black"></vue-fontawesome>
+        </a>
+        <a href="#">
+          <vue-fontawesome icon="instagram" size="1.2" color="black"></vue-fontawesome>
+        </a>
       </div>
     </div>
   </footer>
@@ -20,8 +26,9 @@ export default {};
 </script>
 
 <style scoped>
-a, span {
-  font-family: 'Playfair Display', serif;
+a,
+span {
+  font-family: "Playfair Display", serif;
   font-size: 14px;
   text-decoration: none;
   margin: 0 0 0 25px;
@@ -31,13 +38,12 @@ a, span {
 .foot__container {
   background: #f0f0f0;
   max-width: 100%;
-  margin-top: 95px;
   height: 99px;
   display: flex;
   align-items: center;
 }
 .container {
-    max-width: 900px;
+  max-width: 900px;
   display: flex;
   justify-content: space-between;
 }
